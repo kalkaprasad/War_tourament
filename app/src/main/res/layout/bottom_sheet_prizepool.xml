@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:id="@+id/mainLL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/closeBtn"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/close" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:id="@+id/mainCard"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkBlue"
+                    android:gravity="center"
+                    android:id="@+id/noteTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Prize Pool"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/lato" />
+
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:id="@+id/matchID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Match #3456"
+                    android:fontFamily="@font/lato" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:id="@+id/prizePoolText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Winner - 100 PlayCoins"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

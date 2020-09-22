@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimaryDark"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:elevation="0dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorWhite"
+            android:visibility="visible"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:id="@+id/tool_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="4dp"
+                android:src="@drawable/app_logo" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tool_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="3"
+            android:text="@string/app_name"
+            android:textColor="#ffffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/newNotiIcon"
+                style="?attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clipToPadding="false"
+                android:focusable="true"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_notifications" />
+
+                <TextView
+                    android:id="@+id/cart_badge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right|center_vertical|center_horizontal|center|end"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@drawable/bage_square"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="0"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:visibility="visible"
+                app:cardCornerRadius="5dp">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/mybalanceripple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/toolbalance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/toolwallet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableLeft="@drawable/coin_icon_16x16"
+                            android:drawablePadding="4dp"
+                            android:gravity="center_vertical"
+                            android:text="0"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </com.balysv.materialripple.MaterialRippleLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

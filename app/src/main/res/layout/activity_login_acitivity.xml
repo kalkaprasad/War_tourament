@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="#efefef"
+    android:layout_width="match_parent"
+    android:id="@+id/parent_lyt"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_sign_in_main"/>
+  <include layout="@layout/bottom_sheet_phone_number"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

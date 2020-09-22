@@ -1,0 +1,647 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nestedScroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/actionBarSize"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/matchIDPassLL"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:fontFamily="@font/lato_black"
+                android:id="@+id/titleMatchIDPass"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:text="Match Room Details"
+                android:textColor="@color/blueRandom"
+                android:textSize="17sp" />
+
+            <TextView
+                android:fontFamily="@font/lato"
+                android:id="@+id/roomIDPassUpcoming"
+                android:layout_below="@+id/titleMatchIDPass"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:text="Upcoming Username and Password"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/roomIDPassRL"
+                android:layout_below="@+id/titleMatchIDPass"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:fontFamily="@font/lato"
+                    android:id="@+id/roomIDText"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:text="Room ID: "
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:drawableEnd="@drawable/ic_content_copy"
+                    android:drawablePadding="@dimen/spacing_medium"
+                    android:fontFamily="@font/lato_black"
+                    android:id="@+id/roomIDValue"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/roomIDText"
+                    android:layout_width="wrap_content"
+                    android:text="15263"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:fontFamily="@font/lato"
+                    android:id="@+id/roomPassText"
+                    android:layout_below="@+id/roomIDText"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:text="Room Password: "
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:drawableEnd="@drawable/ic_content_copy"
+                    android:drawablePadding="@dimen/spacing_medium"
+                    android:fontFamily="@font/lato_black"
+                    android:id="@+id/roomPassValue"
+                    android:layout_below="@+id/roomIDText"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@+id/roomPassText"
+                    android:layout_width="wrap_content"
+                    android:text="PLZ123"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:fontFamily="@font/lato"
+                    android:id="@+id/matchSlotText"
+                    android:layout_below="@+id/roomPassText"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:text="Room Slot No: "
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:fontFamily="@font/lato_black"
+                    android:id="@+id/matchSlotValue"
+                    android:layout_below="@+id/roomPassText"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@+id/matchSlotText"
+                    android:layout_width="wrap_content"
+                    android:text="23"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:fontFamily="@font/lato_black"
+            android:id="@+id/title"
+            android:layout_below="@+id/matchIDPassLL"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text="PUBG Mobile Match #35"
+            android:textColor="@color/blueRandom"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:id="@+id/RLTVM"
+            android:layout_below="@+id/title"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/typeCard"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Type: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/type"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Squad"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/versionCard"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/typeCard"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Version: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/version"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="FPP"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mapCard"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/versionCard"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Map: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/map"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Erangel"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLMTEF"
+            android:layout_below="@+id/RLTVM"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/matchTypeCard"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Match Type: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/matchType"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Free"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/matchTypeCard"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Entry Fee: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:drawableLeft="@drawable/coin_icon_16x16"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/fee"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="50"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLtimedate"
+            android:layout_below="@+id/RLMTEF"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/timeCard"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Match Schedule: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/startdate"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="10/12/2018 at 10:00 AM"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLtimer"
+            android:layout_below="@+id/RLtimedate"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/timerCard"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Starts On: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/starttimer"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="1d, 4h 45m 24s"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <TextView
+            android:fontFamily="@font/lato_black"
+            android:id="@+id/prizeDetails"
+            android:layout_below="@+id/RLtimer"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:text="Prize Details"
+            android:textColor="@color/blueRandom"
+            android:textSize="17dp" />
+
+        <RelativeLayout
+            android:id="@+id/RLPD"
+            android:layout_below="@+id/prizeDetails"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/winnerPrizeCard"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Winning Prize: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/winnerPrize"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="50"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/winnerPrizeCard"
+                android:layout_width="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="wrap_content"
+                        android:text="Per Kill: "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:fontFamily="@font/lato"
+                        android:id="@+id/perKillPrize"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="10"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/prizePoolCard"
+            android:layout_below="@+id/RLPD"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            app:cardPreventCornerOverlap="true"
+            app:contentPadding="10dp">
+
+            <TextView
+                android:fontFamily="@font/lato"
+                android:id="@+id/fullPrizeText"
+                android:layout_height="200dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="200dp"
+                android:lineSpacingExtra="5dp"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:fontFamily="@font/lato_black"
+            android:id="@+id/aboutMatch"
+            android:layout_below="@+id/prizePoolCard"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:text="About this Match"
+            android:textColor="@color/blueRandom"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:id="@+id/aboutMatchListLL"
+            android:layout_below="@+id/aboutMatch"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <WebView
+                android:background="@color/transparent"
+                android:id="@+id/listRules"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLParticipants"
+            android:layout_below="@+id/aboutMatchListLL"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:fontFamily="@font/lato_black"
+                android:id="@+id/participants"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Participants"
+                android:textColor="@color/blueRandom"
+                android:textSize="17dp" />
+
+            <TextView
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_refresh"
+                android:drawableTint="#ff000000"
+                android:fontFamily="@font/lato_black"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:id="@+id/refreshLVBtn"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:text=" Refresh"
+                android:textSize="15dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/LLloadBtn"
+            android:layout_below="@+id/RLParticipants"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:drawableLeft="@drawable/ic_refresh"
+                android:gravity="center"
+                android:id="@+id/loadBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingRight="15dp"
+                android:text=" Load Participants"
+                android:textColor="@color/blueRandom" />
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:id="@+id/noParticipantsText"
+            android:layout_below="@+id/LLloadBtn"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="match_parent"
+            android:text="No participants yet."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listParticipants"
+            android:layout_below="@+id/RLParticipants"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="match_parent"
+            android:visibility="gone" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_this_match">About this Match</string>
+    <string name="about_us">About Us</string>
+    <string name="access_code">Access Code</string>
+    <string name="account_holder_name">Account holder name</string>
+    <string name="account_number">Account number</string>
+    <string name="account_verification">Account Verification</string>
+    <string name="adAppId">ca-app-pub-8358501516425252~4568057249</string>
+    <string name="add">ADD</string>
+    <string name="add_money">ADD MONEY</string>
+    <string name="admob_Rewarded_Video_Ads">ca-app-pub-8358501516425252/4584863958</string>
+    <string name="airplane">Airplane mode</string>
+    <string name="airplane_on">You have turned on the airplane mode.</string>
+    <string name="already_a_user">Already a user?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="amount_to_add">Amount to Add</string>
+    <string name="app_currency">Coins</string>
+    <string name="app_name">War Tournament</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apply">APPLY</string>
+    <string name="apply_promo_code">Apply Promo Code</string>
+    <string name="available_playcoin_">Available PlayCoin :</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bonus">Bonus</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="by_joining_this_contest_you_accept_fantasyji_s_and_con_rm_that_you_are_a_resident_of_india_expect_for_the_states_of_assam_odisha_telangana_nagaland_or_sikkim_amp_your_age_is_18_and_above_in_case_y">By joining this contest, you accept Fantasyji\'s and conﬁrm that you are a resident of india expect for the states of Assam, Odisha, Telangana, Nagaland or Sikkim &amp; your age is 18 and above. In case y</string>
+    <string name="by_registering_i_agree_to_fantasyji_s_terms_and_conditions_and_privacy_policy">By Registering, I agree to War Tournament\'s</string>
+    <string name="cancel">Cancel</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="check_back_in_sometime">Check back in sometime...</string>
+    <string name="chip_text">Chip text</string>
+    <string name="choose_one">Choose one</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="code">Code</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b&gt;facebook.com/device&lt;/b&gt; and enter the code shown above.</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continue with Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_smart_device_instructions">To connect your account, open the Facebook app on your mobile device and check for notifications.</string>
+    <string name="com_facebook_smart_device_instructions_or">- OR -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Not you?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">Continue as %1$s</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
+    <string name="com_facebook_tooltip_default">You\'re in control - choose what info you want to share with apps.</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">%1$s won\'t work unless you enable Google Play services.</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">%1$s won\'t run without Google Play services, which are missing from your device.</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s won\'t run without Google Play services, which are not supported by your device.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">%1$s won\'t run unless you update Google Play services.</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">%1$s won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="complete_task">Complete Task</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="country_code">Country Code</string>
+    <string name="coupon_code">SignUp Code</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="create_your_new_password">Create your new password.</string>
+    <string name="credit">Credit</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="date">Date</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="debit">Debit</string>
+    <string name="default_match_notice">Default match notice</string>
+
+    <string name="deposited">Deposited</string>
+    <string name="desc_refer">Invite your friends on App using your Promo Code to Earn 10 Rs when they join first paid match. Your friends also get 5 Rs as Signup Bonus!</string>
+    <string name="desc_reward">Watch videos to get reward after every day.</string>
+    <string name="do_not_send_otp">I will Use IPIN</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="earnings">Earnings</string>
+    <string name="easypay_config_endpoint">http://10.0.28.74:8080/MerchantSite/db.json</string>
+    <string name="easypay_config_endpoint01">http://sachin.webscript.io/sachin</string>
+    <string name="easypay_config_endpoint02">http://10.0.9.39:8100/HANDLER_INTERNAL/easypayConfig</string>
+    <string name="easypay_error_endpoint">https://easypay.paytm.com/paytmAnalytics/logerror</string>
+    <string name="easypay_hide_password">Hide Password</string>
+    <string name="easypay_logevent_endpoint">https://easypay.paytm.com/paytmAnalytics/logevent</string>
+    <string name="easypay_show_password">Show Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_id">Email Id</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_pubg_username">Enter Game Username</string>
+    <string name="enter_the_otp_you_received">Enter the OTP you received</string>
+    <string name="enter_your_mobile_number">Enter your Mobile Number</string>
+    <string name="entry_fee">ENTRY FEE</string>
+    <string name="entry_fee_">Entry Fee :</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="failed">Failed</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="faq">FAQ</string>
+    <string name="fastscroll__app_name">RecyclerViewFastScroll</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+
+    <string name="first_name">First Name</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="forceUpdateNote">Note: In order to continue using the app, you must have to update it to the latest version.</string>
+    <string name="forget">Forget</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="full_name">Full Name</string>
+    <string name="full_result">Full Result</string>
+
+    <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="get_otp_on_call">Get OTP on Call</string>
+    <string name="go_and_join_some_matches">Go and join some matches...</string>
+
+
+    <string name="googlepay_name">GooglePay Name</string>
+    <string name="googlepay_number">GooglePay Number</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="home">Home</string>
+    <string name="how_to_join_room_click_here">How to Join Room? Click Here</string>
+    <string name="i_agree">I AGREE</string>
+    <string name="i_agree_to">I agree to</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="if_you_didn_t_receive_a_code">Request for a new one in</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="important_notes">Important Notes</string>
+    <string name="important_updates">Important Updates</string>
+    <string name="instructions">Instructions</string>
+    <string name="join">JOIN</string>
+    <string name="join_match_warning">Join Match Warning</string>
+    <string name="join_now">JOIN NOW</string>
+    <string name="joined">Joined</string>
+    <string name="kills">Kills</string>
+    <string name="last_name">Last Name</string>
+    <string name="later">LATER</string>
+    <string name="live_chat_support">Live Chat Support</string>
+    <string name="load_participants">Load Participants</string>
+    <string name="login">LOGIN</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="login_using_email_id">Login Using email id</string>
+    <string name="login_using_mobile_number">Login using mobile number.</string>
+    <string name="logout">Logout</string>
+    <string name="long_lorem_ipsum">Duis tellus metus, elementum a lectus id, aliquet interdum mauris. Nam bibendum efficitur sollicitudin. Proin eleifend libero velit, nec fringilla dolor finibus quis. nMorbi eu libero pellentesque, rutrum metus quis, blandit est. Fusce bibendum accumsan nisi vulputate feugiat. In fermentum laoreet euismod. Praesent sem nisl, facilisis eget odio at, rhoncus scelerisque ipsum. Nulla orci dui, dignissim a risus ut, lobortis porttitor velit. \10\10Nulla id lectus metus. Maecenas a lorem in odio auctor facilisis non vitae nunc. Sed malesuada volutpat massa. Praesent sit amet lacinia augue, mollis tempor dolor.</string>
+    <string name="map">MAP</string>
+    <string name="map_">Map:</string>
+    <string name="match_info">Match Info</string>
+    <string name="match_room_details">Match Room Details</string>
+    <string name="match_schedule_">Match Schedule:</string>
+    <string name="match_title">Match Title:</string>
+    <string name="match_type_">Match Type:</string>
+    <string name="matches_played">Matches Played</string>
+    <string name="message_detected">OTP detected, press submit to continue</string>
+    <string name="message_not_detected">Message not detected, please enter OTP Manually</string>
+    <string name="messenger">Messenger</string>
+    <string name="mobile">Mobile data</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select a Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="my_account">My Account</string>
+    <string name="my_contest">My Contest</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_referrals_list">My Referrals List</string>
+    <string name="my_referrals_summary">My Referrals Summary</string>
+    <string name="my_rewards_list">My Rewards List</string>
+    <string name="my_rewards_summary">My Rewards Summary</string>
+    <string name="my_statistics">My Statistics</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="new_password">New Password</string>
+    <string name="new_update_is_available">New Update is Available</string>
+    <string name="new_version_v1_5">New Version: v1.5</string>
+    <string name="next">Next</string>
+    <string name="no_internet_body">You are not connected to the Internet</string>
+    <string name="no_internet_title">No Internet</string>
+    <string name="no_new_pubg_accounts_allowed">No New Game Accounts Allowed</string>
+    <string name="no_ongoing_matches">No ongoing matches!</string>
+    <string name="no_participants_yet">No participants yet.</string>
+    <string name="no_refers_yet">No Refers Yet.</string>
+    <string name="no_result_found">Results not found</string>
+    <string name="no_stats_yet">No stats yet!</string>
+    <string name="no_upcoming_matches">No upcoming matches!</string>
+    <string name="note_make_sure_you_enter_your_pubg_username_ign_and_not_character_id">Note: Make sure you enter your Game Username (IGN) and not Character ID.</string>
+    <string name="note_refer">*Note: get bonus when they join paid match.</string>
+    <string name="note_reward">*Note: max watch video 5 times per day.</string>
+    <string name="number_correct">Number is correct! Send Otp</string>
+    <string name="number_incorrect">Details Do not match</string>
+    <string name="okay">Okay</string>
+    <string name="old_password">Old Password</string>
+    <string name="organised_on_dd_mm_yyyy_at_hh_mm_a">Organised on DD/MM/YYYY at HH:MM A</string>
+    <string name="otp">ENTER OTP</string>
+    <string name="otp_text">We have sent 6 digit OTP on your given Mobile Number through SMS. Kindly check and enter it below to complete your Registration.</string>
+    <string name="our_address">Our Address</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="paid">Paid</string>
+    <string name="participants">Participants</string>
+    <string name="participated">Participated</string>
+    <string name="password">Password</string>
+    <string name="password_text">Password</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="paypal_email">PayPal Email</string>
+    <string name="paypal_name">PayPal Name</string>
+    <string name="paytm_name">Paytm Name</string>
+    <string name="paytm_number">Paytm number</string>
+    <string name="pending">Processing</string>
+    <string name="per_kill">PER KILL</string>
+    <string name="per_kill_">Per Kill:</string>
+    <string name="phone_no">Phone No</string>
+    <string name="phone_number">Phone number</string>
+    <string name="phonepay_name">PhonePay Name</string>
+    <string name="phonepay_number">PhonePay number</string>
+    <string name="play">Play</string>
+    <string name="play_coin_to_redeem">Play Coin to Redeem</string>
+    <string name="play_coins">Play Coin</string>
+    <string name="play_more_apps">https://codecanyon.net/user/skyforcoding/portfolio</string>
+    <string name="play_now">Play Now</string>
+    <string name="playcoin">PlayCoin</string>
+    <string name="playcoin_won">PlayCoin Won</string>
+    <string name="player_name">Player Name</string>
+    <string name="please_don_t_cancel_wait_until_you_get_otp_from_us">Please don\'t cancel, Wait until you get otp from us.</string>
+    <string name="position">Position</string>
+    <string name="preferred_options">Please select your preferred option</string>
+    <string name="price_pool">PRICE POOL</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="private_match_text">This match is private match. Users with access code can only participate. If you have got the access code, please enter it below.</string>
+    <string name="prize_details">Prize Details</string>
+
+    <string name="promo_code_optional">Promo Code (Optional)</string>
+    <string name="pubg_accounts_with_level_less_than_25_aren_t_allowed_to_participate_so_don_t_register_such_entries_such_account_will_be_kicked_from_the_room_and_refund_for_the_same_will_not_be_processed_n_make_sure_you_enter_your_pubg_username_ign_and_not_character_id">• Game Accounts with Level less than 25 aren\'t allowed to Participate. So don\'t register such entries. Such account will be kicked from the room and refund for the same will not be processed. • Make sure you enter your Game Username (IGN) and not Character ID.</string>
+    <string name="pubg_mobile_match_title">Game Mobile Match Title</string>
+    <string name="pubg_room_details">Game Room Details</string>
+    <string name="pubg_username">Game Username</string>
+    <string name="redeem">Redeem</string>
+    <string name="refer_amp_earn">Refer &amp; Earn</string>
+    <string name="refer_more_to_earn_more">Refer More to Earn More!</string>
+    <string name="refer_now">Refer Now</string>
+    <string name="referral_offer_is_currently_under_maintenance_nstay_tuned_for_further_updates">Referral Offer is currently under maintenance. Stay Tuned for further updates!</string>
+    <string name="referral_offer_paused">Referral Offer Paused!</string>
+    <string name="referrals">Referrals</string>
+    <string name="refresh">Refresh</string>
+    <string name="register">Register</string>
+    <string name="register_your_squad">Register your Squad</string>
+    <string name="registered_name">Registered Name</string>
+    <string name="rejected">Rejected</string>
+    <string name="rember">Remember this User ID</string>
+    <string name="resend">Resend</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="reset">Reset</string>
+    <string name="reset_now">Reset Now</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_text">Reset Password</string>
+    <string name="response_text">Response Text</string>
+    <string name="results_coming_soon">Results Coming Soon!</string>
+    <string name="retype_new_password">Retype New Password</string>
+    <string name="reward_offer_is_currently_under_maintenance_nstay_tuned_for_further_updates">Reward Offer is currently under maintenance. Stay Tuned for further updates!</string>
+    <string name="reward_offer_paused">Reward Offer Paused!</string>
+    <string name="rewards">Rewards</string>
+    <string name="room_id">Room ID:</string>
+
+    <string name="room_password">Room Password:</string>
+
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="save">Save</string>
+    <string name="save_card_and_proceed">SAVE CARD AND PROCEED</string>
+    <string name="save_new_password">SAVE NEW PASSWORD</string>
+    <string name="save_password">SAVE PASSWORD</string>
+    <string name="search_hint">Search...</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_country">Select a county</string>
+    <string name="select_option_pay">Submit one of the following options to your bank</string>
+    <string name="send">SEND</string>
+    <string name="send_otp">I will Use OTP</string>
+    <string name="shareContent">Addicted to PUBG? Want to make some cash out of it?? Try out BATTLE KING.IN, eSports platform. Join Daily PUBG Matches &amp; Get Rewards on Each Kill you score.\10        Get Huge Prize on Getting Chicken Dinner. Just Download BATTLE KING.IN Android App &amp; Register using the PromoCode given Below to Get 10 Rs Free Signup Bonus.\10\10Download Link: https://battleking.in\10Promo Code: </string>
+    <string name="shareSub">Get Huge Prize on Getting Chicken Dinner. Just Download BATTLE KING.IN Android App &amp; Register.</string>
+    <string name="share_app">Share App</string>
+    <string name="show">Show</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="signup">SIGNUP</string>
+    <string name="skip">SKIP</string>
+    <string name="something_wrong">Something wrong...</string>
+    <string name="special_notes">Special Notes</string>
+    <string name="spectate">Spectate</string>
+    <string name="star">******</string>
+    <string name="status">Status</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="submit">Continue</string>
+    <string name="submit_otp">Waiting to detect OTP (One Time Password)</string>
+    <string name="submit_password">Submit the following to your bank</string>
+    <string name="success">Successful</string>
+    <string name="successfully_updated">Successfully Updated.</string>
+    <string name="sufficientBalanceText">You have enough PlayCoin to join this match.</string>
+    <string name="terms_amp_conditions">terms &amp; conditions</string>
+    <string name="there_are_no_ongoing_matches_currently_ncheck_back_in_some_time">There are no ongoing matches currently. Check back in some time...</string>
+    <string name="there_are_no_transactions_yet">There are no transactions yet...</string>
+    <string name="there_are_no_upcoming_matches_currently_ncheck_back_in_some_time">There are no upcoming matches currently. Check back in some time..</string>
+    <string name="top_players">Top Players</string>
+    <string name="total_kills">Total Kills</string>
+    <string name="turn_off">Please turn off</string>
+    <string name="turn_on">Please turn on</string>
+    <string name="type">TYPE</string>
+    <string name="type_">Type:</string>
+    <string name="upcoming_username_and_password">Room id and Password will be display here</string>
+    <string name="update">UPDATE</string>
+    <string name="updated_on_16_10_2018">Updated On: 16/10/2018</string>
+    <string name="use_pin">Use Pin</string>
+    <string name="username">Username</string>
+    <string name="verify">VERIFY</string>
+    <string name="verify_mobile_number">Based on the information stored in our database your mobile number is : %s</string>
+    <string name="version">VERSION</string>
+    <string name="version_">Version:</string>
+    <string name="view_more">View More</string>
+    <string name="warning">Please don\'t cancel, Wait until you get otp from us.</string>
+    <string name="watch_match">Watch Match</string>
+    <string name="watch_more_to_earn_more">Watch More to Earn More!</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="we_have_sent_an_otp_on_your_number">We have sent an OTP on your number</string>
+    <string name="we_will_send_you_a_verification_link_on_this_email">We will send you a verification link on this email</string>
+    <string name="what_s_new">What\'s New?</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="wifi_on">Wifi</string>
+    <string name="win_prize">PRIZE POOL</string>
+    <string name="winner_chicken_dinner">Winner Chicken Dinner</string>
+    <string name="winning">Winning</string>
+    <string name="winning_prize_">Winning Prize:</string>
+    <string name="won">Won</string>
+    <string name="won_playcoin_">Won PlayCoin :</string>
+    <string name="you_can_redeem_only_winning_play_coin">You can redeem only winning play coin.</string>
+    <string name="you_don_t_have_sufficient_balance">You don\'t have sufficient PlayCoin</string>
+    <string name="you_haven_t_yet_participated_in_any_match_hurry_up_participate_to_win_huge">You haven\'t yet participated in any match. Hurry up... Participate to win huge.</string>
+    <string name="your_promo_code">Your Promo Code</string>
+
+    <string name="facebook_app_id">821417638599592</string>
+
+    <string name="fb_login_protocol_scheme">fb821417638599592</string>
+    <string name="title_activity_tournament">TournamentActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_game_details">GameDetailsActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>
+

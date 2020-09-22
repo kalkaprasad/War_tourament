@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mainCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="5dp"
+        app:cardPreventCornerOverlap="true">
+
+        <FrameLayout
+            android:id="@+id/back_drop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4d000000"
+            android:clickable="true"
+            android:fitsSystemWindows="true"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/mainTopBanner"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/mainTopHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mainTopBanner"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/privateTextArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/lock"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/lock" />
+
+                    <TextView
+                        android:id="@+id/privateText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toRightOf="@+id/lock"
+                        android:fontFamily="@font/lato"
+                        android:text="Private Match"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sponsorTextArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/sponsorText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/info"
+                        android:fontFamily="@font/lato"
+                        android:text="Sponsored by TrickyTime"
+                        android:textSize="10sp"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/info"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/ic_info_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mainTopHeader"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <LinearLayout
+                    android:id="@+id/id1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp">
+
+                        <ImageView
+                            android:id="@+id/img"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/app_logo"
+                            android:contentDescription="TODO" />
+
+                        <View
+                            android:id="@+id/img_drop"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="#4d000000"
+                            android:clickable="true"
+                            android:fitsSystemWindows="true"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato_black"
+                            android:text="PUBG Mobile Match #1"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/timedate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/lato"
+                            android:text="Solo - FPP - Erangel"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id1"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/prizePoolLL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/down_arrow"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="@string/win_prize"
+                            android:textColor="#ff7c7c7c"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/winPrize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/coin_icon_16x16"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="@font/lato_black"
+                            android:gravity="center"
+                            android:text="500"
+                            android:textColor="@color/darkBlue"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="@string/per_kill"
+                            android:textColor="#ff7c7c7c"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/perKill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/coin_icon_16x16"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="@font/lato_black"
+                            android:gravity="center"
+                            android:text="10"
+                            android:textColor="@color/darkBlue"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="@string/entry_fee"
+                            android:textColor="#ff7c7c7c"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/entryFee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/coin_icon_16x16"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="@font/lato_black"
+                            android:gravity="center"
+                            android:text="50"
+                            android:textColor="@color/darkBlue"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id2"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="@string/type"
+                            android:textColor="#ff7c7c7c"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/matchType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/lato_black"
+                            android:gravity="center"
+                            android:text="Solo"
+                            android:textColor="@color/darkBlue"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="@string/version"
+                            android:textColor="#ff7c7c7c"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/matchVersion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/lato_black"
+                            android:gravity="center"
+                            android:text="FPP"
+                            android:textColor="@color/darkBlue"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="@string/map"
+                            android:textColor="#ff7c7c7c"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/matchMap"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/lato_black"
+                            android:gravity="center"
+                            android:text="Erangel"
+                            android:textColor="#ff000000"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id3"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/spots"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:fontFamily="@font/lato"
+                                android:text="Only 45 spots left"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentEnd="true"
+                                android:fontFamily="@font/lato"
+                                android:text="55/100"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/joinButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/buttonback"
+                            android:clickable="true"
+                            android:fontFamily="@font/lato_black"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:text="@string/join"
+                            android:textColor="@color/blueRandom"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

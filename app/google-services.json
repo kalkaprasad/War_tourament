@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "487527976535",
+    "firebase_url": "https://wargame-a21c9.firebaseio.com",
+    "project_id": "wargame-a21c9",
+    "storage_bucket": "wargame-a21c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487527976535:android:752cd42a513260776b1d12",
+        "android_client_info": {
+          "package_name": "com.app.wartournament"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487527976535-55hjqmj2rbmt41phl5lmnjclt0ebq6kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.wartournament",
+            "certificate_hash": "d318b56a86956b63ddd4daa24bfe6f3192e460fe"
+          }
+        },
+        {
+          "client_id": "487527976535-k563pjkmpbsjhf0ft23qjikkqk6pccpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPsf3Md2povHUIsJ-VjUAC52eKnKcDwsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487527976535-k563pjkmpbsjhf0ft23qjikkqk6pccpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

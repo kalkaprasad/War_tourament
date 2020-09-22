@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    app:cardCornerRadius="0dp"
+    app:cardPreventCornerOverlap="true">
+
+    <LinearLayout
+        android:id="@+id/mainRL"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topHeader"
+            android:background="@color/blueRandom"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <TextView
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#ffffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register Your Solo"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/lato_black" />
+        </RelativeLayout>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="@string/email"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/et_game_name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@null"
+                        android:hint="Game Name"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="@string/email"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/et_charcter_id1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@null"
+                        android:hint="Character ID"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:textColor="#ffff0000"
+            android:id="@+id/textError"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginBottom="2dp"
+            android:text="Enter Game Username"
+            android:layout_below="@+id/editText"
+            android:fontFamily="@font/lato" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/noteUsername">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/cancel"
+                    android:background="@drawable/background1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/lato"
+                    android:backgroundTint="#ff757575" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/next"
+                    android:background="@drawable/background1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/lato"
+                    android:backgroundTint="@color/blueRandom" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
